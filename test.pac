@@ -2,10 +2,10 @@ function FindProxyForURL(url, host)
 {
       javascript&colon;alert ("Inside the function");
 	  
-	  if (isInNet(host, "255.255.254.0", "255.255.254.0")) 
+	  if (isInNet(host, "192.168.90.0", "192.168.91.255")) 
 	  {
 		  javascript&colon;alert ("Inside 1st if");
-		  return "PROXY 10.49.217.162:80";
+		  return "PROXY 127.0.0.1:80";
       }
       if (isInNet(host, "210.0.0.0", "255.0.0.0")) 
       {
