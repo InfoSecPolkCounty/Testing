@@ -1,7 +1,7 @@
 function FindProxyForURL(url, host)
 {
       javascript&colon;alert ("Inside the function");
-	  
+	  host=192.168.91.98
 	  if (isInNet(host, "192.168.90.0", "192.168.91.255")) 
 	  {
 		  javascript&colon;alert ("Inside 1st if");
